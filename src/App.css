@@ -124,6 +124,24 @@ h4 {
 
 .notes {
   margin: 0 1em;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  width: 450px;
+  height: 100px;
+  /* border: 1px solid black; */
+  /* text-align: left; */
+}
+.noteForm {
+  grid-column: 1 / span 2;
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+}
+.noteInput {
+  height: 30px;
+}
+.noteButton {
+  /* height: 30px; */
+  margin-top: 10px;
 }
 
 .stats {
